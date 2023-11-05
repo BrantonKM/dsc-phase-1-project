@@ -1,14 +1,10 @@
 # Phase 1 Project
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
-
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
-
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
+Hi! I'm Branton Kieti. I'm a data analyst with a background in entrepreneurship, project management, and sales.My analytical approach includes using Python and SQL for data cleaning, manipulation, and analysis. I specialize in identifying patterns, trends, and areas for improvement within the data.When I'm not analyzing data, you can find me spending time with my family, working out, or learning something new.Please feel free to reach out to me with any questions or comments. You can connect with me on email me at brantonkieti@gmail.com.
 
 ## Project Overview
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+For this project, I will be analysing data to give insight to stakeholders on investing in a new movie production studio based on the data collected from movie datasets.
 
 ### Business Problem
 
@@ -24,42 +20,46 @@ In the folder `zippedData` are movie datasets from:
 * [TheMovieDB](https://www.themoviedb.org/)
 * [The Numbers](https://www.the-numbers.com/)
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+In the given findings we are going to use only the following data files:
 
 * imdb.title.basics
 * imdb.title.ratings
 * bom.movie_gross
 
-## Deliverables
+### Method
 
-There are three deliverables for this project:
+This project uses descriptive analysis, including description of trends over time. This provides a useful overview of the trends in the movies produced over a period of time and the factors impacting their performance and ratings.
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+## Findings
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+Most popular genres: You can analyze this by grouping your data by genre and then calculating the average revenue, ratings, and count of movies for each genre. The genres with the highest average revenue, ratings, and count would be the most popular.
 
-### Key Points
+Most profitable years, months, and seasons: Group your data by release year, month, and season, then calculate the total revenue for each group. The years, months, and seasons with the highest total revenue would be the most profitable.
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+Characteristics of successful movies: You can identify these by looking at the movies with the highest revenue or ratings and analyzing their common characteristics, such as budget, runtime, cast, and director.
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
+Ratings and reviews comparison: You can compare the ratings and reviews from different sources by calculating the correlation between them. A high correlation would indicate that the ratings and reviews from these sources tend to agree with each other.
 
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
+## Recommendations for Microsoft's Movie Studio
+Based on the results of this analysis, I make the following recommendations:
 
-## Getting Started
+Focus on popular genres: If certain genres have significantly higher average revenue, it might be beneficial to focus on producing movies in those genres.
 
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
+Release movies in profitable years: If certain years have significantly higher total revenue, it might be beneficial to release more movies in those years.
 
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
+Emulate successful movies: If successful movies have certain common characteristics, it might be beneficial to try to emulate those characteristics in future movies.
 
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
+Consider multiple ratings sources: If the ratings from different sources are highly correlated, it might be beneficial to consider all of them.
 
-## Project Submission and Review
+## Conclusion
+In conclusion we can agree that:
+1.The years, months, and seasons with the highest total revenue would be the most profitable.
+2.The movie performance is highly affected by the characteristics , such as budget, runtime, cast, and director.
+3.The data shows trends and gaps: which identified by analyzing the recent data and looking for patterns or changes over time.
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
+## Next steps
+Further analyses could yield additional insights to better understand the movie studio production industry such as:
 
-## Summary
-
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+1.Calculating the sales returns off the movie performance in the first week of release.
+2.Seeing what to anticipate during a particular season off the rationale of customers preference based on the season.
+3.Project for how long a movie will make sales returns and remain relevant based off the characteristic of the movie in hand.
